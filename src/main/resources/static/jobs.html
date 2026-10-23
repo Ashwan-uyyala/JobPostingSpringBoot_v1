@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Postings | CareerHub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <a class="brand" href="/">CareerHub</a>
+        <a class="nav-link" href="createJob.html">+ Create Job</a>
+    </header>
+
+    <main class="page-container">
+        <a class="back-link" href="/">← Back to Home</a>
+
+        <section class="list-heading">
+            <p class="eyebrow">EXPLORE OPPORTUNITIES</p>
+            <h1>Job Postings</h1>
+            <p class="subtitle">Discover your next career opportunity.</p>
+        </section>
+
+        <p id="jobsMessage" role="status" aria-live="polite"></p>
+        <section id="jobsContainer" class="jobs-grid"></section>
+    </main>
+</body>
+</html>
